@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0>
+
+        <title>Will you be my Valentines?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+</head>
+
+<body>
+
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mx-auto max-w-lg">
+            <h1 class="text-center text-2xl font-bold text-indigo-600 sm:text-3xl">
+                Will you be my Valentines?
+            </h1>
+
+            <p class="mx-auto mt-4 max-w-md text-center text-gray-500">
+                Click Yes or No
+            </p>
+            <p class="mx-auto mt-4 max-w-md text-center text-gray-500">
+                Only one option is correct, so make sure to choose it wisely!
+            </p>
+
+
+            <!-- <div>
+                <label for="birthday" class="text-sm font-bold">생년월일</label>
+
+                <div class="relative mt-1">
+                    <input type="date" id="birthday"
+                        class="w-full rounded-lg border-gray-200 p-4 pr-12 text-sm shadow-sm" />
+                </div>
+            </div> -->
+
+            <!-- <div>
+                <label for="age" class="text-sm font-bold">만 나이</label>
+
+                <div class="relative mt-1" id="result">
+
+                </div>
+            </div> -->
+            <!-- <script> 
+            alert("Not a valid answer, try again.")
+            </script> -->
+            <button onclick="answer()" style="font-size:30px; background-color: rgb(255, 87, 115); color: white; border-radius: 7px;">
+                Yes
+            </button>
+
+            <a href ="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+            <button id="submit" style="font-size:30px; background-color: rgb(255, 87, 115); color: white; border-radius: 7px;">
+                No
+            </button>
+            </a>
+            
+            <p id = "blank" style="font-size: 50px;">  </p>
+
+            <script>
+                function answer(){
+                    document.getElementById("blank").innerHTML = "YAY!!!!! You are now my Valentine <3"
+                }
+            </script>
+
+
+
+        </div>
+    </div>
+
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>
